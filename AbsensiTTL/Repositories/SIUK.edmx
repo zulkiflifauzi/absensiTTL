@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Model.Store" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="10.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'AKUNTANSI.V_LIST_HARI_LIBUR' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="V_LIST_HARI_LIBUR">
+          <Key>
+            <PropertyRef Name="TGL_LIBUR" />
+            <PropertyRef Name="KETERANGAN" />
+          </Key>
+          <Property Name="TGL_LIBUR" Type="date" Nullable="false" />
+          <Property Name="KETERANGAN" Type="varchar2" MaxLength="50" Nullable="false" />
+          <Property Name="STS_KD_KLP" Type="char" MaxLength="1" />
+          <Property Name="STS_KODE" Type="varchar2" MaxLength="4" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'AKUNTANSI.V_LIST_SDM' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="V_LIST_SDM">
+          <Key>
+            <PropertyRef Name="NRK" />
+          </Key>
+          <Property Name="NRK" Type="char" MaxLength="9" Nullable="false" />
+          <Property Name="KD_DIT" Type="varchar2" MaxLength="2" />
+          <Property Name="NAMA_DIT" Type="varchar2" MaxLength="40" />
+          <Property Name="KD_SUB" Type="varchar2" MaxLength="2" />
+          <Property Name="NAMA_SUB" Type="varchar2" MaxLength="50" />
+          <Property Name="KD_SEK" Type="varchar2" MaxLength="2" />
+          <Property Name="NAMA_SEK" Type="varchar2" MaxLength="50" />
+          <Property Name="NAJAB" Type="varchar2" MaxLength="100" />
+          <Property Name="NAMA" Type="varchar2" MaxLength="50" />
+          <Property Name="P3" Type="number" Precision="38" Scale="0" />
+          <Property Name="TTL" Type="number" Precision="38" Scale="0" />
+          <Property Name="PKWT" Type="number" Precision="38" Scale="0" />
+          <Property Name="KELAS" Type="number" Precision="2" Scale="0" />
+          <Property Name="KD_JNS_JABATAN" Type="varchar2" MaxLength="1" />
+        </EntityType>
+        <EntityContainer Name="ModelStoreContainer">
+          <EntitySet Name="V_LIST_HARI_LIBUR" EntityType="Self.V_LIST_HARI_LIBUR" store:Type="Views" store:Schema="AKUNTANSI">
+            <DefiningQuery>SELECT 
+"V_LIST_HARI_LIBUR"."TGL_LIBUR" AS "TGL_LIBUR", 
+"V_LIST_HARI_LIBUR"."KETERANGAN" AS "KETERANGAN", 
+"V_LIST_HARI_LIBUR"."STS_KD_KLP" AS "STS_KD_KLP", 
+"V_LIST_HARI_LIBUR"."STS_KODE" AS "STS_KODE"
+FROM "AKUNTANSI"."V_LIST_HARI_LIBUR" "V_LIST_HARI_LIBUR"</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="V_LIST_SDM" EntityType="Self.V_LIST_SDM" store:Type="Views" store:Schema="AKUNTANSI">
+            <DefiningQuery>SELECT 
+"V_LIST_SDM"."NRK" AS "NRK", 
+"V_LIST_SDM"."KD_DIT" AS "KD_DIT", 
+"V_LIST_SDM"."NAMA_DIT" AS "NAMA_DIT", 
+"V_LIST_SDM"."KD_SUB" AS "KD_SUB", 
+"V_LIST_SDM"."NAMA_SUB" AS "NAMA_SUB", 
+"V_LIST_SDM"."KD_SEK" AS "KD_SEK", 
+"V_LIST_SDM"."NAMA_SEK" AS "NAMA_SEK", 
+"V_LIST_SDM"."NAJAB" AS "NAJAB", 
+"V_LIST_SDM"."NAMA" AS "NAMA", 
+"V_LIST_SDM"."P3" AS "P3", 
+"V_LIST_SDM"."TTL" AS "TTL", 
+"V_LIST_SDM"."PKWT" AS "PKWT", 
+"V_LIST_SDM"."KELAS" AS "KELAS", 
+"V_LIST_SDM"."KD_JNS_JABATAN" AS "KD_JNS_JABATAN"
+FROM "AKUNTANSI"."V_LIST_SDM" "V_LIST_SDM"</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="V_LIST_HARI_LIBUR">
+          <Key>
+            <PropertyRef Name="TGL_LIBUR" />
+            <PropertyRef Name="KETERANGAN" />
+          </Key>
+          <Property Name="TGL_LIBUR" Type="DateTime" Nullable="false" />
+          <Property Name="KETERANGAN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="STS_KD_KLP" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="STS_KODE" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="V_LIST_SDM">
+          <Key>
+            <PropertyRef Name="NRK" />
+          </Key>
+          <Property Name="NRK" Type="String" MaxLength="9" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="KD_DIT" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="NAMA_DIT" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="KD_SUB" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="NAMA_SUB" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="KD_SEK" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="NAMA_SEK" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="NAJAB" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="NAMA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="P3" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="TTL" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="PKWT" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="KELAS" Type="Int16" />
+          <Property Name="KD_JNS_JABATAN" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="SIUKEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="V_LIST_HARI_LIBUR" EntityType="Self.V_LIST_HARI_LIBUR" />
+          <EntitySet Name="V_LIST_SDM" EntityType="Self.V_LIST_SDM" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="SIUKEntities">
+          <EntitySetMapping Name="V_LIST_HARI_LIBUR">
+            <EntityTypeMapping TypeName="Model.V_LIST_HARI_LIBUR">
+              <MappingFragment StoreEntitySet="V_LIST_HARI_LIBUR">
+                <ScalarProperty Name="TGL_LIBUR" ColumnName="TGL_LIBUR" />
+                <ScalarProperty Name="KETERANGAN" ColumnName="KETERANGAN" />
+                <ScalarProperty Name="STS_KD_KLP" ColumnName="STS_KD_KLP" />
+                <ScalarProperty Name="STS_KODE" ColumnName="STS_KODE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="V_LIST_SDM">
+            <EntityTypeMapping TypeName="Model.V_LIST_SDM">
+              <MappingFragment StoreEntitySet="V_LIST_SDM">
+                <ScalarProperty Name="NRK" ColumnName="NRK" />
+                <ScalarProperty Name="KD_DIT" ColumnName="KD_DIT" />
+                <ScalarProperty Name="NAMA_DIT" ColumnName="NAMA_DIT" />
+                <ScalarProperty Name="KD_SUB" ColumnName="KD_SUB" />
+                <ScalarProperty Name="NAMA_SUB" ColumnName="NAMA_SUB" />
+                <ScalarProperty Name="KD_SEK" ColumnName="KD_SEK" />
+                <ScalarProperty Name="NAMA_SEK" ColumnName="NAMA_SEK" />
+                <ScalarProperty Name="NAJAB" ColumnName="NAJAB" />
+                <ScalarProperty Name="NAMA" ColumnName="NAMA" />
+                <ScalarProperty Name="P3" ColumnName="P3" />
+                <ScalarProperty Name="TTL" ColumnName="TTL" />
+                <ScalarProperty Name="PKWT" ColumnName="PKWT" />
+                <ScalarProperty Name="KELAS" ColumnName="KELAS" />
+                <ScalarProperty Name="KD_JNS_JABATAN" ColumnName="KD_JNS_JABATAN" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

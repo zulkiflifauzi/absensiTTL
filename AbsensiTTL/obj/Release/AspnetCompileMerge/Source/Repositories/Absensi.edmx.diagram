@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f6e11253e3ce462c991c49bb4a459140" Name="Diagram1">
+        <EntityTypeShape EntityType="AbsensiModel.ACGroup" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="AbsensiModel.ACTimeZone" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="AbsensiModel.ACUnlockComb" Width="1.5" PointX="4.75" PointY="0.75" />
+        <EntityTypeShape EntityType="AbsensiModel.AlarmLog" Width="1.5" PointX="4.75" PointY="4.75" />
+        <EntityTypeShape EntityType="AbsensiModel.AttParam" Width="1.5" PointX="0.75" PointY="5.75" />
+        <EntityTypeShape EntityType="AbsensiModel.AuditedExc" Width="1.5" PointX="6.75" PointY="0.75" />
+        <EntityTypeShape EntityType="AbsensiModel.AUTHDEVICE" Width="1.5" PointX="6.75" PointY="4.75" />
+        <EntityTypeShape EntityType="AbsensiModel.CHECKEXACT" Width="1.5" PointX="2.75" PointY="7.75" />
+        <EntityTypeShape EntityType="AbsensiModel.CHECKINOUT" Width="1.5" PointX="4.75" PointY="7.75" />
+        <EntityTypeShape EntityType="AbsensiModel.DEPARTMENT" Width="1.5" PointX="6.75" PointY="7.75" />
+        <EntityTypeShape EntityType="AbsensiModel.DeptUsedSch" Width="1.5" PointX="8.75" PointY="0.75" />
+        <EntityTypeShape EntityType="AbsensiModel.FaceTemp" Width="1.5" PointX="8.75" PointY="3.75" />
+        <EntityTypeShape EntityType="AbsensiModel.HOLIDAY" Width="1.5" PointX="8.75" PointY="7.75" />
+        <EntityTypeShape EntityType="AbsensiModel.LeaveClass" Width="1.5" PointX="10.75" PointY="0.75" />
+        <EntityTypeShape EntityType="AbsensiModel.LeaveClass1" Width="1.5" PointX="10.75" PointY="4.75" />
+        <EntityTypeShape EntityType="AbsensiModel.Machine" Width="1.5" PointX="10.75" PointY="9.75" />
+        <EntityTypeShape EntityType="AbsensiModel.NUM_RUN" Width="1.5" PointX="12.75" PointY="0.75" />
+        <EntityTypeShape EntityType="AbsensiModel.NUM_RUN_DEIL" Width="1.5" PointX="0.75" PointY="12.75" />
+        <EntityTypeShape EntityType="AbsensiModel.ReportItem" Width="1.5" PointX="2.75" PointY="12.75" />
+        <EntityTypeShape EntityType="AbsensiModel.SchClass" Width="1.5" PointX="12.75" PointY="4.75" />
+        <EntityTypeShape EntityType="AbsensiModel.SECURITYDETAIL" Width="1.5" PointX="4.75" PointY="12.75" />
+        <EntityTypeShape EntityType="AbsensiModel.SHIFT" Width="1.5" PointX="6.75" PointY="12.75" />
+        <EntityTypeShape EntityType="AbsensiModel.SystemLog" Width="1.5" PointX="12.75" PointY="10.75" />
+        <EntityTypeShape EntityType="AbsensiModel.TBSMSALLOT" Width="1.5" PointX="12.75" PointY="13.75" />
+        <EntityTypeShape EntityType="AbsensiModel.TBSMSINFO" Width="1.5" PointX="14.75" PointY="0.75" />
+        <EntityTypeShape EntityType="AbsensiModel.TEMPLATE" Width="1.5" PointX="14.75" PointY="4.75" />
+        <EntityTypeShape EntityType="AbsensiModel.USER_OF_RUN" Width="1.5" PointX="14.75" PointY="9.75" />
+        <EntityTypeShape EntityType="AbsensiModel.USER_SPEDAY" Width="1.5" PointX="14.75" PointY="12.75" />
+        <EntityTypeShape EntityType="AbsensiModel.USER_TEMP_SCH" Width="1.5" PointX="14.75" PointY="15.75" />
+        <EntityTypeShape EntityType="AbsensiModel.UserACMachine" Width="1.5" PointX="16.75" PointY="0.75" />
+        <EntityTypeShape EntityType="AbsensiModel.UserACPrivilege" Width="1.5" PointX="0.75" PointY="16.75" />
+        <EntityTypeShape EntityType="AbsensiModel.USERINFO" Width="1.5" PointX="2.75" PointY="16.75" />
+        <EntityTypeShape EntityType="AbsensiModel.USER" Width="1.5" PointX="16.75" PointY="3.75" />
+        <EntityTypeShape EntityType="AbsensiModel.UserUpdate" Width="1.5" PointX="16.75" PointY="6.75" />
+        <EntityTypeShape EntityType="AbsensiModel.UserUsedSClass" Width="1.5" PointX="16.75" PointY="9.75" />
+        <EntityTypeShape EntityType="AbsensiModel.EmOpLog" Width="1.5" PointX="16.75" PointY="12.75" />
+        <EntityTypeShape EntityType="AbsensiModel.ServerLog" Width="1.5" PointX="16.75" PointY="16.75" />
+        <EntityTypeShape EntityType="AbsensiModel.UsersMachine" Width="1.5" PointX="8.75" PointY="17.75" />
+        <EntityTypeShape EntityType="AbsensiModel.ViewCheckInOut" Width="1.5" PointX="11.375" PointY="17.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

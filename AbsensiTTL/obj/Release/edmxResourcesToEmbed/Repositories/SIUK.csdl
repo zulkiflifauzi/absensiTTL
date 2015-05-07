@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="V_LIST_HARI_LIBUR">
+    <Key>
+      <PropertyRef Name="TGL_LIBUR" />
+      <PropertyRef Name="KETERANGAN" />
+    </Key>
+    <Property Name="TGL_LIBUR" Type="DateTime" Nullable="false" />
+    <Property Name="KETERANGAN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="STS_KD_KLP" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="STS_KODE" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="V_LIST_SDM">
+    <Key>
+      <PropertyRef Name="NRK" />
+    </Key>
+    <Property Name="NRK" Type="String" MaxLength="9" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="KD_DIT" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="NAMA_DIT" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="KD_SUB" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="NAMA_SUB" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="KD_SEK" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="NAMA_SEK" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NAJAB" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="NAMA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="P3" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="TTL" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="PKWT" Type="Decimal" Precision="38" Scale="0" />
+    <Property Name="KELAS" Type="Int16" />
+    <Property Name="KD_JNS_JABATAN" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="SIUKEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="V_LIST_HARI_LIBUR" EntityType="Self.V_LIST_HARI_LIBUR" />
+    <EntitySet Name="V_LIST_SDM" EntityType="Self.V_LIST_SDM" />
+  </EntityContainer>
+</Schema>

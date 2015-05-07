@@ -1,0 +1,602 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AbsensiModelStoreContainer" CdmEntityContainer="AbsensiEntities">
+    <EntitySetMapping Name="ACGroups">
+      <EntityTypeMapping TypeName="AbsensiModel.ACGroup">
+        <MappingFragment StoreEntitySet="ACGroup">
+          <ScalarProperty Name="verifystyle" ColumnName="verifystyle" />
+          <ScalarProperty Name="holidayvaild" ColumnName="holidayvaild" />
+          <ScalarProperty Name="TimeZone3" ColumnName="TimeZone3" />
+          <ScalarProperty Name="TimeZone2" ColumnName="TimeZone2" />
+          <ScalarProperty Name="TimeZone1" ColumnName="TimeZone1" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ACTimeZones">
+      <EntityTypeMapping TypeName="AbsensiModel.ACTimeZone">
+        <MappingFragment StoreEntitySet="ACTimeZones">
+          <ScalarProperty Name="SatEnd" ColumnName="SatEnd" />
+          <ScalarProperty Name="SatStart" ColumnName="SatStart" />
+          <ScalarProperty Name="FriEnd" ColumnName="FriEnd" />
+          <ScalarProperty Name="FriStart" ColumnName="FriStart" />
+          <ScalarProperty Name="ThursEnd" ColumnName="ThursEnd" />
+          <ScalarProperty Name="ThursStart" ColumnName="ThursStart" />
+          <ScalarProperty Name="WedEnd" ColumnName="WedEnd" />
+          <ScalarProperty Name="WedStart" ColumnName="WedStart" />
+          <ScalarProperty Name="TuesEnd" ColumnName="TuesEnd" />
+          <ScalarProperty Name="TuesStart" ColumnName="TuesStart" />
+          <ScalarProperty Name="MonEnd" ColumnName="MonEnd" />
+          <ScalarProperty Name="MonStart" ColumnName="MonStart" />
+          <ScalarProperty Name="SunEnd" ColumnName="SunEnd" />
+          <ScalarProperty Name="SunStart" ColumnName="SunStart" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="TimeZoneID" ColumnName="TimeZoneID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ACUnlockCombs">
+      <EntityTypeMapping TypeName="AbsensiModel.ACUnlockComb">
+        <MappingFragment StoreEntitySet="ACUnlockComb">
+          <ScalarProperty Name="Group05" ColumnName="Group05" />
+          <ScalarProperty Name="Group04" ColumnName="Group04" />
+          <ScalarProperty Name="Group03" ColumnName="Group03" />
+          <ScalarProperty Name="Group02" ColumnName="Group02" />
+          <ScalarProperty Name="Group01" ColumnName="Group01" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="UnlockCombID" ColumnName="UnlockCombID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AlarmLogs">
+      <EntityTypeMapping TypeName="AbsensiModel.AlarmLog">
+        <MappingFragment StoreEntitySet="AlarmLog">
+          <ScalarProperty Name="AlarmType" ColumnName="AlarmType" />
+          <ScalarProperty Name="MachineAlias" ColumnName="MachineAlias" />
+          <ScalarProperty Name="LogTime" ColumnName="LogTime" />
+          <ScalarProperty Name="EnrollNumber" ColumnName="EnrollNumber" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AttParams">
+      <EntityTypeMapping TypeName="AbsensiModel.AttParam">
+        <MappingFragment StoreEntitySet="AttParam">
+          <ScalarProperty Name="PARAVALUE" ColumnName="PARAVALUE" />
+          <ScalarProperty Name="PARATYPE" ColumnName="PARATYPE" />
+          <ScalarProperty Name="PARANAME" ColumnName="PARANAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AuditedExcs">
+      <EntityTypeMapping TypeName="AbsensiModel.AuditedExc">
+        <MappingFragment StoreEntitySet="AuditedExc">
+          <ScalarProperty Name="UTime" ColumnName="UTime" />
+          <ScalarProperty Name="UName" ColumnName="UName" />
+          <ScalarProperty Name="IsLeave" ColumnName="IsLeave" />
+          <ScalarProperty Name="NewExcID" ColumnName="NewExcID" />
+          <ScalarProperty Name="CheckTime" ColumnName="CheckTime" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="AEID" ColumnName="AEID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AUTHDEVICEs">
+      <EntityTypeMapping TypeName="AbsensiModel.AUTHDEVICE">
+        <MappingFragment StoreEntitySet="AUTHDEVICE">
+          <ScalarProperty Name="MachineID" ColumnName="MachineID" />
+          <ScalarProperty Name="USERID" ColumnName="USERID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHECKEXACTs">
+      <EntityTypeMapping TypeName="AbsensiModel.CHECKEXACT">
+        <MappingFragment StoreEntitySet="CHECKEXACT">
+          <ScalarProperty Name="DATE" ColumnName="DATE" />
+          <ScalarProperty Name="MODIFYBY" ColumnName="MODIFYBY" />
+          <ScalarProperty Name="ISCOUNT" ColumnName="ISCOUNT" />
+          <ScalarProperty Name="INCOUNT" ColumnName="INCOUNT" />
+          <ScalarProperty Name="ISDELETE" ColumnName="ISDELETE" />
+          <ScalarProperty Name="ISMODIFY" ColumnName="ISMODIFY" />
+          <ScalarProperty Name="YUYIN" ColumnName="YUYIN" />
+          <ScalarProperty Name="ISADD" ColumnName="ISADD" />
+          <ScalarProperty Name="CHECKTYPE" ColumnName="CHECKTYPE" />
+          <ScalarProperty Name="CHECKTIME" ColumnName="CHECKTIME" />
+          <ScalarProperty Name="USERID" ColumnName="USERID" />
+          <ScalarProperty Name="EXACTID" ColumnName="EXACTID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHECKINOUTs">
+      <EntityTypeMapping TypeName="AbsensiModel.CHECKINOUT">
+        <MappingFragment StoreEntitySet="CHECKINOUT">
+          <ScalarProperty Name="UserExtFmt" ColumnName="UserExtFmt" />
+          <ScalarProperty Name="sn" ColumnName="sn" />
+          <ScalarProperty Name="WorkCode" ColumnName="WorkCode" />
+          <ScalarProperty Name="Memoinfo" ColumnName="Memoinfo" />
+          <ScalarProperty Name="SENSORID" ColumnName="SENSORID" />
+          <ScalarProperty Name="VERIFYCODE" ColumnName="VERIFYCODE" />
+          <ScalarProperty Name="CHECKTYPE" ColumnName="CHECKTYPE" />
+          <ScalarProperty Name="CHECKTIME" ColumnName="CHECKTIME" />
+          <ScalarProperty Name="USERID" ColumnName="USERID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DEPARTMENTS">
+      <EntityTypeMapping TypeName="AbsensiModel.DEPARTMENT">
+        <MappingFragment StoreEntitySet="DEPARTMENTS">
+          <ScalarProperty Name="OverTime" ColumnName="OverTime" />
+          <ScalarProperty Name="Holiday" ColumnName="Holiday" />
+          <ScalarProperty Name="ATT" ColumnName="ATT" />
+          <ScalarProperty Name="DefaultSchId" ColumnName="DefaultSchId" />
+          <ScalarProperty Name="RegisterOT" ColumnName="RegisterOT" />
+          <ScalarProperty Name="MinAutoSchInterval" ColumnName="MinAutoSchInterval" />
+          <ScalarProperty Name="InheritDeptRule" ColumnName="InheritDeptRule" />
+          <ScalarProperty Name="OutEarly" ColumnName="OutEarly" />
+          <ScalarProperty Name="InLate" ColumnName="InLate" />
+          <ScalarProperty Name="AutoSchPlan" ColumnName="AutoSchPlan" />
+          <ScalarProperty Name="InheritDeptSchClass" ColumnName="InheritDeptSchClass" />
+          <ScalarProperty Name="InheritDeptSch" ColumnName="InheritDeptSch" />
+          <ScalarProperty Name="InheritParentSch" ColumnName="InheritParentSch" />
+          <ScalarProperty Name="SUPDEPTID" ColumnName="SUPDEPTID" />
+          <ScalarProperty Name="DEPTNAME" ColumnName="DEPTNAME" />
+          <ScalarProperty Name="DEPTID" ColumnName="DEPTID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DeptUsedSchs">
+      <EntityTypeMapping TypeName="AbsensiModel.DeptUsedSch">
+        <MappingFragment StoreEntitySet="DeptUsedSchs">
+          <ScalarProperty Name="SchId" ColumnName="SchId" />
+          <ScalarProperty Name="DeptId" ColumnName="DeptId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FaceTemps">
+      <EntityTypeMapping TypeName="AbsensiModel.FaceTemp">
+        <MappingFragment StoreEntitySet="FaceTemp">
+          <ScalarProperty Name="TEMPLATE" ColumnName="TEMPLATE" />
+          <ScalarProperty Name="VFCOUNT" ColumnName="VFCOUNT" />
+          <ScalarProperty Name="ACTIVETIME" ColumnName="ACTIVETIME" />
+          <ScalarProperty Name="RESERVE" ColumnName="RESERVE" />
+          <ScalarProperty Name="VALID" ColumnName="VALID" />
+          <ScalarProperty Name="FACEID" ColumnName="FACEID" />
+          <ScalarProperty Name="pin" ColumnName="pin" />
+          <ScalarProperty Name="SIZE" ColumnName="SIZE" />
+          <ScalarProperty Name="USERNO" ColumnName="USERNO" />
+          <ScalarProperty Name="TEMPLATEID" ColumnName="TEMPLATEID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOLIDAYS">
+      <EntityTypeMapping TypeName="AbsensiModel.HOLIDAY">
+        <MappingFragment StoreEntitySet="HOLIDAYS">
+          <ScalarProperty Name="DeptID" ColumnName="DeptID" />
+          <ScalarProperty Name="MINZU" ColumnName="MINZU" />
+          <ScalarProperty Name="XINBIE" ColumnName="XINBIE" />
+          <ScalarProperty Name="HOLIDAYTYPE" ColumnName="HOLIDAYTYPE" />
+          <ScalarProperty Name="DURATION" ColumnName="DURATION" />
+          <ScalarProperty Name="STARTTIME" ColumnName="STARTTIME" />
+          <ScalarProperty Name="HOLIDAYDAY" ColumnName="HOLIDAYDAY" />
+          <ScalarProperty Name="HOLIDAYMONTH" ColumnName="HOLIDAYMONTH" />
+          <ScalarProperty Name="HOLIDAYYEAR" ColumnName="HOLIDAYYEAR" />
+          <ScalarProperty Name="HOLIDAYNAME" ColumnName="HOLIDAYNAME" />
+          <ScalarProperty Name="HOLIDAYID" ColumnName="HOLIDAYID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LeaveClasses">
+      <EntityTypeMapping TypeName="AbsensiModel.LeaveClass">
+        <MappingFragment StoreEntitySet="LeaveClass">
+          <ScalarProperty Name="Classify" ColumnName="Classify" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Deduct" ColumnName="Deduct" />
+          <ScalarProperty Name="ReportSymbol" ColumnName="ReportSymbol" />
+          <ScalarProperty Name="RemaindCount" ColumnName="RemaindCount" />
+          <ScalarProperty Name="RemaindProc" ColumnName="RemaindProc" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="MinUnit" ColumnName="MinUnit" />
+          <ScalarProperty Name="LeaveName" ColumnName="LeaveName" />
+          <ScalarProperty Name="LeaveId" ColumnName="LeaveId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LeaveClass1">
+      <EntityTypeMapping TypeName="AbsensiModel.LeaveClass1">
+        <MappingFragment StoreEntitySet="LeaveClass1">
+          <ScalarProperty Name="Calc" ColumnName="Calc" />
+          <ScalarProperty Name="Classify" ColumnName="Classify" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="LeaveType" ColumnName="LeaveType" />
+          <ScalarProperty Name="Deduct" ColumnName="Deduct" />
+          <ScalarProperty Name="ReportSymbol" ColumnName="ReportSymbol" />
+          <ScalarProperty Name="RemaindCount" ColumnName="RemaindCount" />
+          <ScalarProperty Name="RemaindProc" ColumnName="RemaindProc" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="MinUnit" ColumnName="MinUnit" />
+          <ScalarProperty Name="LeaveName" ColumnName="LeaveName" />
+          <ScalarProperty Name="LeaveId" ColumnName="LeaveId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Machines">
+      <EntityTypeMapping TypeName="AbsensiModel.Machine">
+        <MappingFragment StoreEntitySet="Machines">
+          <ScalarProperty Name="IsIfChangeConfigServer2" ColumnName="IsIfChangeConfigServer2" />
+          <ScalarProperty Name="PhotoStamp" ColumnName="PhotoStamp" />
+          <ScalarProperty Name="sn" ColumnName="sn" />
+          <ScalarProperty Name="ProduceKind" ColumnName="ProduceKind" />
+          <ScalarProperty Name="Purpose" ColumnName="Purpose" />
+          <ScalarProperty Name="LockControl" ColumnName="LockControl" />
+          <ScalarProperty Name="ProductType" ColumnName="ProductType" />
+          <ScalarProperty Name="FirmwareVersion" ColumnName="FirmwareVersion" />
+          <ScalarProperty Name="SecretCount" ColumnName="SecretCount" />
+          <ScalarProperty Name="fingercount" ColumnName="fingercount" />
+          <ScalarProperty Name="usercount" ColumnName="usercount" />
+          <ScalarProperty Name="managercount" ColumnName="managercount" />
+          <ScalarProperty Name="Voice" ColumnName="Voice" />
+          <ScalarProperty Name="Idle" ColumnName="Idle" />
+          <ScalarProperty Name="InOutRecordWarn" ColumnName="InOutRecordWarn" />
+          <ScalarProperty Name="DateFormat" ColumnName="DateFormat" />
+          <ScalarProperty Name="UILanguage" ColumnName="UILanguage" />
+          <ScalarProperty Name="CommPassword" ColumnName="CommPassword" />
+          <ScalarProperty Name="Enabled" ColumnName="Enabled" />
+          <ScalarProperty Name="IsHost" ColumnName="IsHost" />
+          <ScalarProperty Name="MachineNumber" ColumnName="MachineNumber" />
+          <ScalarProperty Name="Baudrate" ColumnName="Baudrate" />
+          <ScalarProperty Name="Port" ColumnName="Port" />
+          <ScalarProperty Name="SerialPort" ColumnName="SerialPort" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+          <ScalarProperty Name="ConnectType" ColumnName="ConnectType" />
+          <ScalarProperty Name="MachineAlias" ColumnName="MachineAlias" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NUM_RUN">
+      <EntityTypeMapping TypeName="AbsensiModel.NUM_RUN">
+        <MappingFragment StoreEntitySet="NUM_RUN">
+          <ScalarProperty Name="UNITS" ColumnName="UNITS" />
+          <ScalarProperty Name="CYLE" ColumnName="CYLE" />
+          <ScalarProperty Name="ENDDATE" ColumnName="ENDDATE" />
+          <ScalarProperty Name="STARTDATE" ColumnName="STARTDATE" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="OLDID" ColumnName="OLDID" />
+          <ScalarProperty Name="NUM_RUNID" ColumnName="NUM_RUNID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NUM_RUN_DEIL">
+      <EntityTypeMapping TypeName="AbsensiModel.NUM_RUN_DEIL">
+        <MappingFragment StoreEntitySet="NUM_RUN_DEIL">
+          <ScalarProperty Name="OverTime" ColumnName="OverTime" />
+          <ScalarProperty Name="SCHCLASSID" ColumnName="SCHCLASSID" />
+          <ScalarProperty Name="EDAYS" ColumnName="EDAYS" />
+          <ScalarProperty Name="SDAYS" ColumnName="SDAYS" />
+          <ScalarProperty Name="ENDTIME" ColumnName="ENDTIME" />
+          <ScalarProperty Name="STARTTIME" ColumnName="STARTTIME" />
+          <ScalarProperty Name="NUM_RUNID" ColumnName="NUM_RUNID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ReportItems">
+      <EntityTypeMapping TypeName="AbsensiModel.ReportItem">
+        <MappingFragment StoreEntitySet="ReportItem">
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="CalcLast" ColumnName="CalcLast" />
+          <ScalarProperty Name="StatisticMethod" ColumnName="StatisticMethod" />
+          <ScalarProperty Name="CalcBySchClass" ColumnName="CalcBySchClass" />
+          <ScalarProperty Name="Formula" ColumnName="Formula" />
+          <ScalarProperty Name="UnitName" ColumnName="UnitName" />
+          <ScalarProperty Name="RIName" ColumnName="RIName" />
+          <ScalarProperty Name="ShowIt" ColumnName="ShowIt" />
+          <ScalarProperty Name="RIIndex" ColumnName="RIIndex" />
+          <ScalarProperty Name="RIID" ColumnName="RIID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SchClasses">
+      <EntityTypeMapping TypeName="AbsensiModel.SchClass">
+        <MappingFragment StoreEntitySet="SchClass">
+          <ScalarProperty Name="WorkMins" ColumnName="WorkMins" />
+          <ScalarProperty Name="SensorID" ColumnName="SensorID" />
+          <ScalarProperty Name="WorkDay" ColumnName="WorkDay" />
+          <ScalarProperty Name="AutoBind" ColumnName="AutoBind" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="CheckOutTime2" ColumnName="CheckOutTime2" />
+          <ScalarProperty Name="CheckOutTime1" ColumnName="CheckOutTime1" />
+          <ScalarProperty Name="CheckInTime2" ColumnName="CheckInTime2" />
+          <ScalarProperty Name="CheckInTime1" ColumnName="CheckInTime1" />
+          <ScalarProperty Name="CheckOut" ColumnName="CheckOut" />
+          <ScalarProperty Name="CheckIn" ColumnName="CheckIn" />
+          <ScalarProperty Name="EarlyMinutes" ColumnName="EarlyMinutes" />
+          <ScalarProperty Name="LateMinutes" ColumnName="LateMinutes" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="schName" ColumnName="schName" />
+          <ScalarProperty Name="schClassid" ColumnName="schClassid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SECURITYDETAILS">
+      <EntityTypeMapping TypeName="AbsensiModel.SECURITYDETAIL">
+        <MappingFragment StoreEntitySet="SECURITYDETAILS">
+          <ScalarProperty Name="FullControl" ColumnName="FullControl" />
+          <ScalarProperty Name="ReadOnly" ColumnName="ReadOnly" />
+          <ScalarProperty Name="REPORT" ColumnName="REPORT" />
+          <ScalarProperty Name="REPORTVIEW" ColumnName="REPORTVIEW" />
+          <ScalarProperty Name="ENROLLFINGERS" ColumnName="ENROLLFINGERS" />
+          <ScalarProperty Name="USERINFO" ColumnName="USERINFO" />
+          <ScalarProperty Name="SCHEDULE" ColumnName="SCHEDULE" />
+          <ScalarProperty Name="DEPTID" ColumnName="DEPTID" />
+          <ScalarProperty Name="USERID" ColumnName="USERID" />
+          <ScalarProperty Name="SECURITYDETAILID" ColumnName="SECURITYDETAILID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SHIFTs">
+      <EntityTypeMapping TypeName="AbsensiModel.SHIFT">
+        <MappingFragment StoreEntitySet="SHIFT">
+          <ScalarProperty Name="UNITS" ColumnName="UNITS" />
+          <ScalarProperty Name="CYCLE" ColumnName="CYCLE" />
+          <ScalarProperty Name="SCH12" ColumnName="SCH12" />
+          <ScalarProperty Name="SCH11" ColumnName="SCH11" />
+          <ScalarProperty Name="SCH10" ColumnName="SCH10" />
+          <ScalarProperty Name="SCH9" ColumnName="SCH9" />
+          <ScalarProperty Name="SCH8" ColumnName="SCH8" />
+          <ScalarProperty Name="SCH7" ColumnName="SCH7" />
+          <ScalarProperty Name="SCH6" ColumnName="SCH6" />
+          <ScalarProperty Name="SCH5" ColumnName="SCH5" />
+          <ScalarProperty Name="SCH4" ColumnName="SCH4" />
+          <ScalarProperty Name="SCH3" ColumnName="SCH3" />
+          <ScalarProperty Name="SCH2" ColumnName="SCH2" />
+          <ScalarProperty Name="SCH1" ColumnName="SCH1" />
+          <ScalarProperty Name="RUNNUM" ColumnName="RUNNUM" />
+          <ScalarProperty Name="ENDDATE" ColumnName="ENDDATE" />
+          <ScalarProperty Name="STARTDATE" ColumnName="STARTDATE" />
+          <ScalarProperty Name="USHIFTID" ColumnName="USHIFTID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="SHIFTID" ColumnName="SHIFTID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SystemLogs">
+      <EntityTypeMapping TypeName="AbsensiModel.SystemLog">
+        <MappingFragment StoreEntitySet="SystemLog">
+          <ScalarProperty Name="LogDescr" ColumnName="LogDescr" />
+          <ScalarProperty Name="LogTag" ColumnName="LogTag" />
+          <ScalarProperty Name="MachineAlias" ColumnName="MachineAlias" />
+          <ScalarProperty Name="LogTime" ColumnName="LogTime" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBSMSALLOTs">
+      <EntityTypeMapping TypeName="AbsensiModel.TBSMSALLOT">
+        <MappingFragment StoreEntitySet="TBSMSALLOT">
+          <ScalarProperty Name="GENTM" ColumnName="GENTM" />
+          <ScalarProperty Name="USERREF" ColumnName="USERREF" />
+          <ScalarProperty Name="SMSREF" ColumnName="SMSREF" />
+          <ScalarProperty Name="REFERENCE" ColumnName="REFERENCE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBSMSINFOes">
+      <EntityTypeMapping TypeName="AbsensiModel.TBSMSINFO">
+        <MappingFragment StoreEntitySet="TBSMSINFO">
+          <ScalarProperty Name="GENTM" ColumnName="GENTM" />
+          <ScalarProperty Name="SMSTMLENG" ColumnName="SMSTMLENG" />
+          <ScalarProperty Name="SMSSTARTTM" ColumnName="SMSSTARTTM" />
+          <ScalarProperty Name="SMSCONTENT" ColumnName="SMSCONTENT" />
+          <ScalarProperty Name="SMSTYPE" ColumnName="SMSTYPE" />
+          <ScalarProperty Name="SMSINDEX" ColumnName="SMSINDEX" />
+          <ScalarProperty Name="SMSID" ColumnName="SMSID" />
+          <ScalarProperty Name="REFERENCE" ColumnName="REFERENCE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TEMPLATEs">
+      <EntityTypeMapping TypeName="AbsensiModel.TEMPLATE">
+        <MappingFragment StoreEntitySet="TEMPLATE">
+          <ScalarProperty Name="TEMPLATE4" ColumnName="TEMPLATE4" />
+          <ScalarProperty Name="DivisionFP" ColumnName="DivisionFP" />
+          <ScalarProperty Name="Flag" ColumnName="Flag" />
+          <ScalarProperty Name="TEMPLATE11" ColumnName="TEMPLATE1" />
+          <ScalarProperty Name="EMACHINENUM" ColumnName="EMACHINENUM" />
+          <ScalarProperty Name="USETYPE" ColumnName="USETYPE" />
+          <ScalarProperty Name="BITMAPPICTURE4" ColumnName="BITMAPPICTURE4" />
+          <ScalarProperty Name="BITMAPPICTURE3" ColumnName="BITMAPPICTURE3" />
+          <ScalarProperty Name="BITMAPPICTURE2" ColumnName="BITMAPPICTURE2" />
+          <ScalarProperty Name="BITMAPPICTURE" ColumnName="BITMAPPICTURE" />
+          <ScalarProperty Name="TEMPLATE3" ColumnName="TEMPLATE3" />
+          <ScalarProperty Name="TEMPLATE2" ColumnName="TEMPLATE2" />
+          <ScalarProperty Name="TEMPLATE1" ColumnName="TEMPLATE" />
+          <ScalarProperty Name="FINGERID" ColumnName="FINGERID" />
+          <ScalarProperty Name="USERID" ColumnName="USERID" />
+          <ScalarProperty Name="TEMPLATEID" ColumnName="TEMPLATEID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USER_OF_RUN">
+      <EntityTypeMapping TypeName="AbsensiModel.USER_OF_RUN">
+        <MappingFragment StoreEntitySet="USER_OF_RUN">
+          <ScalarProperty Name="ORDER_RUN" ColumnName="ORDER_RUN" />
+          <ScalarProperty Name="ISNOTOF_RUN" ColumnName="ISNOTOF_RUN" />
+          <ScalarProperty Name="ENDDATE" ColumnName="ENDDATE" />
+          <ScalarProperty Name="STARTDATE" ColumnName="STARTDATE" />
+          <ScalarProperty Name="NUM_OF_RUN_ID" ColumnName="NUM_OF_RUN_ID" />
+          <ScalarProperty Name="USERID" ColumnName="USERID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USER_SPEDAY">
+      <EntityTypeMapping TypeName="AbsensiModel.USER_SPEDAY">
+        <MappingFragment StoreEntitySet="USER_SPEDAY">
+          <ScalarProperty Name="DATE" ColumnName="DATE" />
+          <ScalarProperty Name="YUANYING" ColumnName="YUANYING" />
+          <ScalarProperty Name="DATEID" ColumnName="DATEID" />
+          <ScalarProperty Name="ENDSPECDAY" ColumnName="ENDSPECDAY" />
+          <ScalarProperty Name="STARTSPECDAY" ColumnName="STARTSPECDAY" />
+          <ScalarProperty Name="USERID" ColumnName="USERID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USER_TEMP_SCH">
+      <EntityTypeMapping TypeName="AbsensiModel.USER_TEMP_SCH">
+        <MappingFragment StoreEntitySet="USER_TEMP_SCH">
+          <ScalarProperty Name="SCHCLASSID" ColumnName="SCHCLASSID" />
+          <ScalarProperty Name="FLAG" ColumnName="FLAG" />
+          <ScalarProperty Name="TYPE" ColumnName="TYPE" />
+          <ScalarProperty Name="OVERTIME" ColumnName="OVERTIME" />
+          <ScalarProperty Name="LEAVETIME" ColumnName="LEAVETIME" />
+          <ScalarProperty Name="COMETIME" ColumnName="COMETIME" />
+          <ScalarProperty Name="USERID" ColumnName="USERID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserACMachines">
+      <EntityTypeMapping TypeName="AbsensiModel.UserACMachine">
+        <MappingFragment StoreEntitySet="UserACMachines">
+          <ScalarProperty Name="Deviceid" ColumnName="Deviceid" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserACPrivileges">
+      <EntityTypeMapping TypeName="AbsensiModel.UserACPrivilege">
+        <MappingFragment StoreEntitySet="UserACPrivilege">
+          <ScalarProperty Name="TimeZone3" ColumnName="TimeZone3" />
+          <ScalarProperty Name="TimeZone2" ColumnName="TimeZone2" />
+          <ScalarProperty Name="TimeZone1" ColumnName="TimeZone1" />
+          <ScalarProperty Name="IsUseGroup" ColumnName="IsUseGroup" />
+          <ScalarProperty Name="ACGroupID" ColumnName="ACGroupID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USERINFOes">
+      <EntityTypeMapping TypeName="AbsensiModel.USERINFO">
+        <MappingFragment StoreEntitySet="USERINFO">
+          <ScalarProperty Name="Pin1" ColumnName="Pin1" />
+          <ScalarProperty Name="CardNo" ColumnName="CardNo" />
+          <ScalarProperty Name="EMPRIVILEGE" ColumnName="EMPRIVILEGE" />
+          <ScalarProperty Name="InheritDeptRule" ColumnName="InheritDeptRule" />
+          <ScalarProperty Name="RegisterOT" ColumnName="RegisterOT" />
+          <ScalarProperty Name="MinAutoSchInterval" ColumnName="MinAutoSchInterval" />
+          <ScalarProperty Name="AutoSchPlan" ColumnName="AutoSchPlan" />
+          <ScalarProperty Name="InheritDeptSchClass" ColumnName="InheritDeptSchClass" />
+          <ScalarProperty Name="InheritDeptSch" ColumnName="InheritDeptSch" />
+          <ScalarProperty Name="privilege" ColumnName="privilege" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="PHOTO" ColumnName="PHOTO" />
+          <ScalarProperty Name="MVerifyPass" ColumnName="MVerifyPass" />
+          <ScalarProperty Name="LUNCHDURATION" ColumnName="LUNCHDURATION" />
+          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+          <ScalarProperty Name="MINZU" ColumnName="MINZU" />
+          <ScalarProperty Name="HOLIDAY" ColumnName="HOLIDAY" />
+          <ScalarProperty Name="SEP" ColumnName="SEP" />
+          <ScalarProperty Name="OVERTIME" ColumnName="OVERTIME" />
+          <ScalarProperty Name="OUTEARLY" ColumnName="OUTEARLY" />
+          <ScalarProperty Name="INLATE" ColumnName="INLATE" />
+          <ScalarProperty Name="ATT" ColumnName="ATT" />
+          <ScalarProperty Name="SECURITYFLAGS" ColumnName="SECURITYFLAGS" />
+          <ScalarProperty Name="DEFAULTDEPTID" ColumnName="DEFAULTDEPTID" />
+          <ScalarProperty Name="VERIFICATIONMETHOD" ColumnName="VERIFICATIONMETHOD" />
+          <ScalarProperty Name="FPHONE" ColumnName="FPHONE" />
+          <ScalarProperty Name="OPHONE" ColumnName="OPHONE" />
+          <ScalarProperty Name="ZIP" ColumnName="ZIP" />
+          <ScalarProperty Name="STATE" ColumnName="STATE" />
+          <ScalarProperty Name="CITY" ColumnName="CITY" />
+          <ScalarProperty Name="STREET" ColumnName="STREET" />
+          <ScalarProperty Name="HIREDDAY" ColumnName="HIREDDAY" />
+          <ScalarProperty Name="BIRTHDAY" ColumnName="BIRTHDAY" />
+          <ScalarProperty Name="PAGER" ColumnName="PAGER" />
+          <ScalarProperty Name="TITLE" ColumnName="TITLE" />
+          <ScalarProperty Name="GENDER" ColumnName="GENDER" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="SSN" ColumnName="SSN" />
+          <ScalarProperty Name="BADGENUMBER" ColumnName="BADGENUMBER" />
+          <ScalarProperty Name="USERID" ColumnName="USERID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USERS">
+      <EntityTypeMapping TypeName="AbsensiModel.USER">
+        <MappingFragment StoreEntitySet="USERS">
+          <ScalarProperty Name="SALT" ColumnName="SALT" />
+          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+          <ScalarProperty Name="USERID" ColumnName="USERID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserUpdates">
+      <EntityTypeMapping TypeName="AbsensiModel.UserUpdate">
+        <MappingFragment StoreEntitySet="UserUpdates">
+          <ScalarProperty Name="BadgeNumber" ColumnName="BadgeNumber" />
+          <ScalarProperty Name="UpdateId" ColumnName="UpdateId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserUsedSClasses">
+      <EntityTypeMapping TypeName="AbsensiModel.UserUsedSClass">
+        <MappingFragment StoreEntitySet="UserUsedSClasses">
+          <ScalarProperty Name="SchId" ColumnName="SchId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EmOpLogs">
+      <EntityTypeMapping TypeName="AbsensiModel.EmOpLog">
+        <MappingFragment StoreEntitySet="EmOpLog">
+          <ScalarProperty Name="SensorId" ColumnName="SensorId" />
+          <ScalarProperty Name="Params4" ColumnName="Params4" />
+          <ScalarProperty Name="Params3" ColumnName="Params3" />
+          <ScalarProperty Name="Params2" ColumnName="Params2" />
+          <ScalarProperty Name="Params1" ColumnName="Params1" />
+          <ScalarProperty Name="manipulationID" ColumnName="manipulationID" />
+          <ScalarProperty Name="OperateTime" ColumnName="OperateTime" />
+          <ScalarProperty Name="USERID" ColumnName="USERID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ServerLogs">
+      <EntityTypeMapping TypeName="AbsensiModel.ServerLog">
+        <MappingFragment StoreEntitySet="ServerLog">
+          <ScalarProperty Name="OPERATOR" ColumnName="OPERATOR" />
+          <ScalarProperty Name="SENSORID" ColumnName="SENSORID" />
+          <ScalarProperty Name="EVENTTIME" ColumnName="EVENTTIME" />
+          <ScalarProperty Name="parameter" ColumnName="parameter" />
+          <ScalarProperty Name="EnrollNumber" ColumnName="EnrollNumber" />
+          <ScalarProperty Name="USERID" ColumnName="USERID" />
+          <ScalarProperty Name="EVENT" ColumnName="EVENT" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UsersMachines">
+      <EntityTypeMapping TypeName="AbsensiModel.UsersMachine">
+        <MappingFragment StoreEntitySet="UsersMachines">
+          <ScalarProperty Name="DEVICEID" ColumnName="DEVICEID" />
+          <ScalarProperty Name="USERID" ColumnName="USERID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ViewCheckInOuts">
+      <EntityTypeMapping TypeName="AbsensiModel.ViewCheckInOut">
+        <MappingFragment StoreEntitySet="ViewCheckInOut">
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="BADGENUMBER" ColumnName="BADGENUMBER" />
+          <ScalarProperty Name="USERID" ColumnName="USERID" />
+          <ScalarProperty Name="CHECKTYPE" ColumnName="CHECKTYPE" />
+          <ScalarProperty Name="CHECKTIME" ColumnName="CHECKTIME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

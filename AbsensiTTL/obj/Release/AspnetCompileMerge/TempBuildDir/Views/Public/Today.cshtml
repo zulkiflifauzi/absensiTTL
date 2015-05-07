@@ -1,0 +1,62 @@
+﻿@model IEnumerable<AbsensiTTL.Models.ViewModelCheckInOut>
+
+@{
+    ViewBag.Title = "Today Presence";
+}
+@Styles.Render("~/Content/datatables")
+
+<h4><span style="color:red">DB Last Update @ViewData["LastUpdate"]</span></h4>
+<h2>Today Presence</h2>
+<table id="presenceTable" class="display">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BADGENUMBER)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NAME)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CHECKIN)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CHECKOUT)
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BADGENUMBER)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NAME)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CHECKIN)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CHECKOUT)
+                </td>
+            </tr>
+        }
+    </tbody>
+
+
+</table>
+
+<span style="font-style:italic;font-weight:bold;color:green">@ViewData["staff"] is the earliest person came to the office today<img style="padding-bottom:3px
+            " height="20" src="http://www.stateofdigital.com/wp-content/uploads/2011/03/facebook-like.jpg"></span>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/datatables")
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#presenceTable").dataTable();
+        });
+
+    </script>
+}

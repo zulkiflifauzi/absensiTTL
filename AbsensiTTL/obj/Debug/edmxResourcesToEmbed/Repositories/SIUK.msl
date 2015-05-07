@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="SIUKEntities">
+    <EntitySetMapping Name="V_LIST_HARI_LIBUR">
+      <EntityTypeMapping TypeName="Model.V_LIST_HARI_LIBUR">
+        <MappingFragment StoreEntitySet="V_LIST_HARI_LIBUR">
+          <ScalarProperty Name="TGL_LIBUR" ColumnName="TGL_LIBUR" />
+          <ScalarProperty Name="KETERANGAN" ColumnName="KETERANGAN" />
+          <ScalarProperty Name="STS_KD_KLP" ColumnName="STS_KD_KLP" />
+          <ScalarProperty Name="STS_KODE" ColumnName="STS_KODE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="V_LIST_SDM">
+      <EntityTypeMapping TypeName="Model.V_LIST_SDM">
+        <MappingFragment StoreEntitySet="V_LIST_SDM">
+          <ScalarProperty Name="NRK" ColumnName="NRK" />
+          <ScalarProperty Name="KD_DIT" ColumnName="KD_DIT" />
+          <ScalarProperty Name="NAMA_DIT" ColumnName="NAMA_DIT" />
+          <ScalarProperty Name="KD_SUB" ColumnName="KD_SUB" />
+          <ScalarProperty Name="NAMA_SUB" ColumnName="NAMA_SUB" />
+          <ScalarProperty Name="KD_SEK" ColumnName="KD_SEK" />
+          <ScalarProperty Name="NAMA_SEK" ColumnName="NAMA_SEK" />
+          <ScalarProperty Name="NAJAB" ColumnName="NAJAB" />
+          <ScalarProperty Name="NAMA" ColumnName="NAMA" />
+          <ScalarProperty Name="P3" ColumnName="P3" />
+          <ScalarProperty Name="TTL" ColumnName="TTL" />
+          <ScalarProperty Name="PKWT" ColumnName="PKWT" />
+          <ScalarProperty Name="KELAS" ColumnName="KELAS" />
+          <ScalarProperty Name="KD_JNS_JABATAN" ColumnName="KD_JNS_JABATAN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

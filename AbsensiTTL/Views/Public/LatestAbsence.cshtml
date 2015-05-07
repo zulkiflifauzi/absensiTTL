@@ -1,0 +1,69 @@
+﻿@using AbsensiTTL.Helpers
+@{
+    Layout = null;
+    ViewBag.Title = "Latest Absence";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Latest Absence</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+</head>
+<body style="padding-top:20px">
+    <div class="container body-content">
+        <h4><span style="color:red">Mohon Untuk Absen Satu Kali Saja Per Check-in / Check-out. Hubungi ICT di ext 1316 apabila data dibawah tidak terupdate (data anda selalu tersimpan apabila mesin sudah mengkonfirmasi dengan suara "Terima Kasih")</span></h4>        
+
+        <div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody id="body"></tbody>
+            </table>
+
+        </div>
+
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - ICT TTL</p>
+        </footer>
+    </div>
+       
+
+</body>
+</html>
+<script type="text/javascript">
+    $(document).ready(function () {
+        setInterval(function () { GetData(); }, 5000);
+                   
+                });
+
+                function GetData() {
+                    var url = '@Url.Action("GetTopTenLatest", "Public")';
+                    var urlParameter = "";
+                    $.post(url, urlParameter, function (data) {
+                        var result = "";
+                        $("#body").html("");
+                        for (var item in data) {
+
+                            result += "<tr>";
+                            result += "<td>" + data[item].NAME + "</td>";
+                            result += "<td>" + data[item].DAY + "</td>";
+                            result += "<td>" + data[item].DESCRIPTION + "</td>";
+                            result += "</tr>";
+                        }
+
+                        $("#body").html(result);
+                    }, "json");
+                }
+</script>

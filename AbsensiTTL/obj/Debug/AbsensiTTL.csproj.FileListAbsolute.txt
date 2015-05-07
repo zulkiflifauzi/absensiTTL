@@ -1,0 +1,96 @@
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\AutoMapper.Net4.dll
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\AbsensiTTL.dll.config
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\AbsensiTTL.dll
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\AbsensiTTL.pdb
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\Antlr3.Runtime.dll
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\AutoMapper.dll
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\EntityFramework.dll
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\Microsoft.Web.Infrastructure.dll
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\Newtonsoft.Json.dll
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.Helpers.dll
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.Mvc.dll
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.Optimization.dll
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.Razor.dll
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.WebPages.Deployment.dll
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.WebPages.dll
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.WebPages.Razor.dll
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\WebActivatorEx.dll
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\WebGrease.dll
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\AutoMapper.xml
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\EntityFramework.xml
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.Helpers.xml
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.Mvc.xml
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.Optimization.xml
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.Razor.xml
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.WebPages.xml
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.WebPages.Deployment.xml
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.WebPages.Razor.xml
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\Newtonsoft.Json.xml
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\Antlr3.Runtime.pdb
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\obj\Debug\AbsensiTTL.dll
+c:\users\zulkifli\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\obj\Debug\AbsensiTTL.pdb
+C:\Users\ZULKIFLI\documents\visual studio 2013\Projects\AbsensiTTL\AbsensiTTL\obj\Debug\AbsensiTTL.csprojResolveAssemblyReference.cache
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\AutoMapper.Net4.dll
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\AbsensiTTL.dll.config
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\AbsensiTTL.dll
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\AbsensiTTL.pdb
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\Antlr3.Runtime.dll
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\AutoMapper.dll
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\EntityFramework.dll
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\Newtonsoft.Json.dll
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.Helpers.dll
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.Mvc.dll
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.Optimization.dll
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.Razor.dll
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.WebPages.Deployment.dll
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.WebPages.dll
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.WebPages.Razor.dll
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\WebActivatorEx.dll
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\WebGrease.dll
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\AutoMapper.xml
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\EntityFramework.xml
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.Helpers.xml
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.Mvc.xml
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.Optimization.xml
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.Razor.xml
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.WebPages.xml
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.WebPages.Deployment.xml
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\System.Web.WebPages.Razor.xml
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\Newtonsoft.Json.xml
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\bin\Antlr3.Runtime.pdb
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\obj\Debug\AbsensiTTL.csprojResolveAssemblyReference.cache
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\obj\Debug\AbsensiTTL.dll
+C:\Users\wais\Documents\Visual Studio 2013\Projects\AbsensiTTL\AbsensiTTL\obj\Debug\AbsensiTTL.pdb
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\AutoMapper.Net4.dll
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\AbsensiTTL.dll.config
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\AbsensiTTL.dll
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\AbsensiTTL.pdb
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\Antlr3.Runtime.dll
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\AutoMapper.dll
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\EntityFramework.dll
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\Newtonsoft.Json.dll
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\System.Web.Helpers.dll
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\System.Web.Mvc.dll
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\System.Web.Optimization.dll
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\System.Web.Razor.dll
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\System.Web.WebPages.dll
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\System.Web.WebPages.Razor.dll
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\WebActivatorEx.dll
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\WebGrease.dll
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\AutoMapper.xml
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\EntityFramework.xml
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\System.Web.Helpers.xml
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\System.Web.Mvc.xml
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\System.Web.Optimization.xml
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\System.Web.Razor.xml
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\System.Web.WebPages.xml
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\System.Web.WebPages.Razor.xml
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\Newtonsoft.Json.xml
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\bin\Antlr3.Runtime.pdb
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\obj\Debug\AbsensiTTL.csprojResolveAssemblyReference.cache
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\obj\Debug\AbsensiTTL.dll
+C:\Users\ZULKIFLI\Documents\TTL\Code\AbsensiTTL\AbsensiTTL\obj\Debug\AbsensiTTL.pdb

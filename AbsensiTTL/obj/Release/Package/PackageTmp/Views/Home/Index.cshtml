@@ -1,0 +1,107 @@
+﻿@using AbsensiTTL.Helpers
+@{
+    ViewBag.Title = "Index";
+}
+<h4><span style="color:red">DB Last Update @ViewData["LastUpdate"]</span></h4>
+<h2>Please Choose Year & Month</h2>
+<div class="form-horizontal">
+    @if (User.IsInRole("Administrator"))
+    {
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.DropDownList("userId", ViewData["userId"] as List<SelectListItem>, new { @class = "form-control" })
+            </div>
+        </div>
+    }
+
+    <div class="form-group">
+        <div class="col-md-10">
+            @Html.Year("year", "year")
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-10">
+            @Html.Month("month", "month")
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-10">
+            <input type="button" id="search" value="Search" class="btn btn-primary" />
+        </div>
+    </div>
+</div>
+
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Day</th>
+                <th>Check In</th>
+                <th>Check Out</th>
+                <th>Description</th>
+
+            </tr>
+        </thead>
+        <tbody id="body"></tbody>
+    </table>
+
+</div>
+
+@using (Html.BeginForm("GetAllPresenceListExport", "Home", FormMethod.Post, new { @style = "display:none", @id = "FormExport" }))
+{
+    @Html.Hidden("bulan")
+    @Html.Hidden("tahun")
+
+    <input type="submit" value="Export All Users Presence to Excel" title="Export All Users Presence to Excel File" />
+}
+
+@section Scripts {
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#search").bind("click", function (e) {
+                $("#FormExport").show();
+                $("#bulan").val($("#month").val());
+                $("#tahun").val($("#year").val());
+                GetData();
+            });
+        });
+
+        function GetData()
+        {
+            var url = '@Url.Action("GetPresenceList", "Home")';
+            var urlParameter = "year=" + $("#year").val() + "&month=" + $("#month").val() + "&badgeNumber=" + $("#userId").val();
+            $.post(url, urlParameter, function (data) {
+                var result = "";
+                $("#body").html("");
+                for (var item in data)
+                {
+                    var style = "";
+                    var description = data[item].DESCRIPTION;
+                    if (data[item].DESCRIPTION == "Saturday" || data[item].DESCRIPTION == "Sunday") style = " class='holiday'";
+                    if (data[item].DESCRIPTION == "Tidak Sesuai Waktu Kerja") style = " class='infoDay'";
+                    if (data[item].DESCRIPTION == "Absen Sekali") style = " class='infoDay'";
+                    if (data[item].DESCRIPTION != "Saturday" && data[item].DESCRIPTION != "Sunday")
+                    {
+                        if (data[item].CHECKIN == "" && data[item].CHECKOUT == "") style = " class='warningDay'";
+                    }
+                    //if (data[item].CHECKIN != "" && data[item].CHECKOUT != "" & data[item].CHECKIN == data[item].CHECKOUT)
+                    //{
+                    //    style = " class='infoDay'";
+                    //    description = "Absen Sekali";
+                    //}
+                    result += "<tr" + style + "><td>" + data[item].DATE + "</td>";
+                    result += "<td>" + data[item].DAY + "</td>";
+                    result += "<td>" + data[item].CHECKIN + "</td>";
+                    result += "<td>" + data[item].CHECKOUT + "</td>";
+                    result += "<td>" + description + "</td></tr>";
+                }
+
+                $("#body").html(result);
+            }, "json");
+        }
+    </script>
+}
+

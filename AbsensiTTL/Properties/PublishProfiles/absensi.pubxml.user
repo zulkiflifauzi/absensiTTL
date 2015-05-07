@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>Y:\Web\Absensi</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/AbsensiTTL.dll">
+      <publishTime>05/07/2015 16:36:32</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>07/24/2014 10:57:27</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="bin/AutoMapper.dll">
+      <publishTime>07/24/2014 13:30:51</publishTime>
+    </File>
+    <File Include="bin/AutoMapper.Net4.dll">
+      <publishTime>07/24/2014 13:30:51</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>07/24/2014 11:48:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/24/2014 10:57:26</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>07/24/2014 10:57:27</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>07/24/2014 10:57:26</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>07/24/2014 10:57:26</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>07/24/2014 10:57:26</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>07/24/2014 10:57:26</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>07/24/2014 10:57:26</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>07/24/2014 10:57:26</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>07/24/2014 10:57:26</publishTime>
+    </File>
+    <File Include="bin/WebActivatorEx.dll">
+      <publishTime>07/24/2014 13:31:59</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>07/24/2014 10:57:27</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>07/25/2014 08:59:16</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>08/20/2014 17:10:41</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/dataTables.autoFill.css">
+      <publishTime>07/24/2014 11:56:16</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/dataTables.autoFill.min.css">
+      <publishTime>07/24/2014 11:56:16</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/dataTables.bootstrap.css">
+      <publishTime>07/24/2014 11:56:16</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/dataTables.colReorder.css">
+      <publishTime>07/24/2014 11:56:16</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/dataTables.colReorder.min.css">
+      <publishTime>07/24/2014 11:56:16</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/dataTables.colVis.css">
+      <publishTime>07/24/2014 11:56:16</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/dataTables.colvis.jqueryui.css">
+      <publishTime>07/24/2014 11:56:16</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/dataTables.colVis.min.css">
+      <publishTime>07/24/2014 11:56:16</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/dataTables.fixedColumns.css">
+      <publishTime>07/24/2014 11:56:16</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/dataTables.fixedColumns.min.css">
+      <publishTime>07/24/2014 11:56:16</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/dataTables.fixedHeader.css">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/dataTables.fixedHeader.min.css">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/dataTables.foundation.css">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/dataTables.jqueryui.css">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/dataTables.jqueryui.scss">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/dataTables.keyTable.css">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/dataTables.keyTable.min.css">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/dataTables.scroller.css">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/dataTables.scroller.min.css">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/dataTables.tableTools.css">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/dataTables.tableTools.min.css">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/jquery.dataTables.css">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/jquery.dataTables.min.css">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/jquery.dataTables_themeroller.css">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/css/jquery.dataTables_themeroller.min.css">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/background.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/back_disabled.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/back_enabled.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/back_enabled_hover.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/collection.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/collection_hover.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/copy.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/copy_hover.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/csv.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/csv_hover.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/filler.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/forward_disabled.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/forward_enabled.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/forward_enabled_hover.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/insert.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/loading-background.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/pdf.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/pdf_hover.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/print.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/print_hover.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/sort_asc.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/sort_asc_disabled.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/sort_both.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/sort_desc.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/sort_desc_disabled.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/xls.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/images/xls_hover.png">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/swf/copy_csv_xls.swf">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/DataTables-1.10.0/swf/copy_csv_xls_pdf.swf">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Content/Images/loading.gif">
+      <publishTime>09/11/2014 17:23:20</publishTime>
+    </File>
+    <File Include="Content/Images/logo-web.png">
+      <publishTime>06/09/2014 10:47:58</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>05/06/2015 14:36:30</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>07/24/2014 10:57:22</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/24/2014 10:57:23</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/24/2014 10:57:23</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/24/2014 10:57:23</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/24/2014 10:57:23</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/24/2014 10:57:22</publishTime>
+    </File>
+    <File Include="loading.gif">
+      <publishTime>09/11/2014 17:23:20</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>07/24/2014 13:31:59</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Repositories/Absensi.edmx.diagram">
+      <publishTime>07/24/2014 14:26:04</publishTime>
+    </File>
+    <File Include="Repositories/SIUK.edmx.diagram">
+      <publishTime>09/15/2014 10:07:30</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>07/24/2014 10:57:23</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>07/24/2014 10:57:23</publishTime>
+    </File>
+    <File Include="Scripts/DataTables-1.10.0/dataTables.autoFill.js">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Scripts/DataTables-1.10.0/dataTables.autoFill.min.js">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Scripts/DataTables-1.10.0/dataTables.bootstrap.js">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Scripts/DataTables-1.10.0/dataTables.colReorder.js">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Scripts/DataTables-1.10.0/dataTables.colReorder.min.js">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Scripts/DataTables-1.10.0/dataTables.colVis.js">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Scripts/DataTables-1.10.0/dataTables.colVis.min.js">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Scripts/DataTables-1.10.0/dataTables.fixedColumns.js">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Scripts/DataTables-1.10.0/dataTables.fixedColumns.min.js">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Scripts/DataTables-1.10.0/dataTables.fixedHeader.js">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Scripts/DataTables-1.10.0/dataTables.fixedHeader.min.js">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Scripts/DataTables-1.10.0/dataTables.foundation.js">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Scripts/DataTables-1.10.0/dataTables.jqueryui.js">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Scripts/DataTables-1.10.0/dataTables.keyTable.js">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Scripts/DataTables-1.10.0/dataTables.keyTable.min.js">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Scripts/DataTables-1.10.0/dataTables.scroller.js">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Scripts/DataTables-1.10.0/dataTables.scroller.min.js">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Scripts/DataTables-1.10.0/dataTables.tableTools.js">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Scripts/DataTables-1.10.0/dataTables.tableTools.min.js">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Scripts/DataTables-1.10.0/jquery.dataTables.js">
+      <publishTime>07/24/2014 11:56:15</publishTime>
+    </File>
+    <File Include="Scripts/DataTables-1.10.0/jquery.dataTables.min.js">
+      <publishTime>07/24/2014 11:56:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>07/24/2014 10:57:23</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>07/24/2014 10:57:23</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>07/24/2014 10:57:23</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>07/24/2014 13:11:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>07/24/2014 13:11:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>07/24/2014 13:11:36</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>07/24/2014 13:11:36</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>07/24/2014 10:57:26</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>07/24/2014 10:57:27</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>07/24/2014 10:57:27</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>07/24/2014 13:11:42</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>07/24/2014 15:10:27</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>07/25/2014 11:57:23</publishTime>
+    </File>
+    <File Include="Views/Home/EmailList.cshtml">
+      <publishTime>10/17/2014 11:33:22</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>05/06/2015 14:36:03</publishTime>
+    </File>
+    <File Include="Views/Home/Today.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Login/ChangePassword.cshtml">
+      <publishTime>07/25/2014 08:18:56</publishTime>
+    </File>
+    <File Include="Views/Login/Login.cshtml">
+      <publishTime>07/24/2014 13:28:33</publishTime>
+    </File>
+    <File Include="Views/PresenceDetail/Index.cshtml">
+      <publishTime>05/07/2015 11:10:45</publishTime>
+    </File>
+    <File Include="Views/Public/DownloadPresence.cshtml">
+      <publishTime>08/11/2014 16:35:14</publishTime>
+    </File>
+    <File Include="Views/Public/LatestAbsence.cshtml">
+      <publishTime>05/06/2015 17:53:38</publishTime>
+    </File>
+    <File Include="Views/Public/Today.cshtml">
+      <publishTime>09/09/2014 09:23:08</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>07/24/2014 10:57:22</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>09/30/2014 10:33:47</publishTime>
+    </File>
+    <File Include="Views/Shared/_LoginPartial.cshtml">
+      <publishTime>07/25/2014 11:15:12</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>07/24/2014 10:57:22</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>07/24/2014 10:57:22</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/06/2015 17:22:23</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
